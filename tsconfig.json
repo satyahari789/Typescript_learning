@@ -1,0 +1,22 @@
+{
+  
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+
+  "files": [
+    "**/*.ts",
+  ],
+  
+  "exclude": [
+    "**/*",
+    "node_modules",
+    "**/*.ts", // or whichever causes the conflict
+     
+  ]
+}

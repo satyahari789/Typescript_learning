@@ -6,7 +6,8 @@
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "sourceMap": true,
   },
 
   "files": [
@@ -19,4 +20,6 @@
     "**/*.ts", // or whichever causes the conflict
      
   ]
+  
+
 }

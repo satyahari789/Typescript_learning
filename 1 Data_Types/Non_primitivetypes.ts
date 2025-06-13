@@ -11,5 +11,5 @@ console.log(person)
 let numbers: number[] = [1, 2, 3];
 
 //tuple
-let user: [string, number] = ["Alice", 30];
+let user1: [string, number] = ["Alice", 30];
 

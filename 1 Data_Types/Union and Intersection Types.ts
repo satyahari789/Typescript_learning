@@ -1,6 +1,6 @@
 // Union - variable can be multiple types
 let value1: string | number = "hello";
-value = 42;
+value1 = 42;
 
 // Intersection - combines multiple types
 type Admin = { role: string };
@@ -11,5 +11,5 @@ const admin: AdminEmployee = {
   role: "Manager",
   name: "satya"
 };
-console.log(value)
+console.log(value1)
 console.log(admin)
